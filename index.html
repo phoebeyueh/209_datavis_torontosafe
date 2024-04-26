@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Toronto!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/BG_Welcome.jpg" alt="Welcome to Toronto" class="banner">
+    </header>
+    <main>
+        <div class="cards-wrapper"></div>
+
+        <!-- Welcome and Newsflash --------------------------------------------------------------------------------->
+        <section id="welcome-overview" class="card-container-header">
+            <div class="welcome-row">
+                <div class="welcome-text">
+                    <p><span class="welcome-title">Welcome to Toronto Canada!</span></p>
+                    <p>We’re excited to help you explore and enjoy the city safely. 
+                        While Toronto is generally a safe place, we’re dedicated to keeping you informed about any potential risks you might encounter.</p>
+                    <p>Our website is equipped with useful tools to enhance your experience, including interactive map visualizations of districts 
+                        and detailed neighborhood comparisons that reveal recent trends. 
+                        You can hover over these maps for more insights, or explore the cards below for a list of must-see tourist attractions along 
+                        with detailed safety levels for each location.</p>
+                    <p>Have fun exploring the website, and feel free to let us know how we can improve your experience on future visits. 
+                        We’re here to support you every step of the way.</p> 
+                    <p>Enjoy your adventure in Toronto!</p>    
+    
+                    <!-- About Us and Data Integrity Buttons -->
+                    <div class="button-container left-button-container">
+                        <a href="https://data.torontopolice.on.ca/search?collection=Dataset&q=traffic" class="return-button">Data Source</a>
+                        <a href="objectives.html" class="return-button">Objectives</a>
+                        <a href="about-us.html" class="return-button">About Us</a>
+                    </div>
+                </div>
+            
+
+            <!-- Flash News -- Tableau link here -->
+            <div class='tableauPlaceholder' id='viz1712970266305'  style='position: relative; margin-top: 200px;'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;NewsFeed_17128825126950&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='NewsFeed_17128825126950&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;NewsFeed_17128825126950&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1712970266305');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='750px';vizElement.style.height='462px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='750px';vizElement.style.height='462px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        
+        </section>
+                
+        
+
+        <!-- Navigating Toronto --------------------------------------------------------------------------------------->
+        <section id="navigate-toronto" class="card-container">
+            <h2>Navigating Toronto</h2>
+
+            <!-- Toronto Safety Trends -->
+            <div class="card">
+                <a href="recent_crimes.html">
+                    <h3>Toronto Safety Trends</h3>
+                    <div class="image-container">
+                        <img src="images/CARD_RecentCrimeStatistics.jpeg" alt="Recent Crime Statistics" class="card-img-bottom">
+                    </div>
+                </a>
+            </div>
+
+            <!-- Neighborhoods Comparisons -->
+            <div class="card">
+                <a href="neighborhood_comparison.html">
+                    <h3>Neighborhoods Safety Comparisons</h3>
+                    <div class="image-container">
+                        <img src="images/CARD_NeighborhoodsComps.png" alt="Neighborhoods Comparisons" class="card-img-bottom">
+                    </div>
+                </a>
+            </div>
+
+            <!-- Safety GeoSpotlight -->
+            <div class="card">
+                <a href="toronto-glance.html">
+                    <h3>Safety GeoSpotlight</h3>
+                    <div class="image-container">
+                        <img src="images/CARD_Chloropleth.png" alt="Toronto at a Glance" class="card-img-bottom">
+                    </div>
+                </a>
+            </div>
+
+            <!-- Tourist Attractions -->
+            <div class="card">
+                <a href="tourist_attractions.html">
+                    <h3>Tourist Attractions</h3>
+                    <div class="image-container">
+                        <img src="images/CARD_TouristAttractions.jpg" alt="Tourist Attractions" class="card-img-bottom">
+                    </div>
+                </a>
+            </div>
+
+
+        </section>
+
+
+
+        <!-- Safety Tips -------------------------------------------------------------------------------->
+        <section id="safety-tips" class="card-container">
+            <h2>Safety Tips</h2>
+
+            <!-- Top 10 Safest Countries -->
+            <div class="card">
+                <a href="safety-ranking.html">
+                    <h3>Top 10 Safest Countries</h3>
+                    <div class="image-container">
+                        <img src="images/CARD_Safest_Countries.jpeg" alt="Safety Ranking" class="card-img-bottom">
+                    </div>
+                </a>
+            </div>
+
+            <!-- Safety Tips -->
+            <div class="card">
+                <a href="safety_recommendations.html">
+                    <h3>Safety Tips</h3>
+                    <div class="image-container">
+                        <img src="images/CARD_Safety_Tips.jpeg" alt="Safety Tips" class="card-img-bottom">
+                    </div>
+                </a>
+            </div>
+
+            <!-- Feedback -->
+            <div class="card">
+                <a href="feedback.html">               
+                    <h3>Feedback</h3>
+                    <div class="image-container">
+                        <img src="images/CARDS_Feedback.png" alt="Feedback" class="card-img-bottom">
+                    </div>
+                </a>
+            </div>
+
+
+
+    </main>
+
+    <div class="mission-container">
+        <p class="mission-statement">
+            "Our mission is to provide tourists with a clear and insightful understanding of Toronto's safety landscape. We've developed data visualizations that offer comparisons between neighborhoods, illustrate the seasonality of crimes, and highlight safety around popular tourist landmarks. Our aim is not to alarm or deter visitors, but rather to equip them with the knowledge they need to navigate the city confidently. By promoting Toronto's diverse attractions and ensuring a sense of security, we aspire to support an enjoyable and enriching experience for all visitors."
+        </p>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Toronto Safety Guide</p>
+    </footer>
+</body>
+</html>
